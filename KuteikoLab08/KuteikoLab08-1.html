@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Встановлення кодування та інших метатегів -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Осмислений текст з форматуванням</title>
+
+    <style>
+
+        /* Стиль для основної секції з текстом */
+        .section {
+            margin: 10px 20px 30px 20px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            border-width: 2px;
+            border-color: #000;
+            border-style: solid;
+            /* border: 2px solid #000; */
+            border-radius: 10px;
+        }
+
+        /* Стиль для виділеного блоку з фоном та рамкою */
+        .highlight1 {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-width: 1px;
+            border-color: #000;
+            border-style: dashed;
+            /* border: 1px dashed #000; */
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        .highlight2 {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-width: 1px;
+            border-color: #000;
+            border-style: dotted;
+            /* border: 1px dotted #000; */
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        /* Стиль для списку з пунктами квадратної форми */
+        .list-style {
+            list-style-type: square;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h1>Добрий день</h1>
+        <p>Це текст, який має декілька абзаців та форматування</p>
+        <!-- Виділений блок з фоном та рамкою для наголошення тексту -->
+        <p class="highlight1">Цей абзац виділений фоном та пунктирною рамкою для привертання уваги.</p>
+        <ul class="list-style">
+            <li>Перший пункт списку</li>
+            <li>Другий пункт списку</li>
+        </ul>
+    </div>
+
+    <!-- Друга секція з заголовком та текстом -->
+    <div class="section">
+        <h2>Секція 2</h2>
+        <p>Тут ще текст з різним форматуванням для демонстрації стилів.</p>
+        <!-- Виділений блок для різного наголошення тексту -->
+        <p class="highlight2">Цей абзац має інше виділення для різноманітності.</p>
+        <!-- Цитата з внутрішнім відступом -->
+        <blockquote style="margin-left: 30px;">Цитата внутрішнім відступом для наголошення.</blockquote>
+    </div>
+
+</body>
+</html>
